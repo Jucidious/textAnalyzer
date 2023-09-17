@@ -18,6 +18,8 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 /**
  * Набор тестов для {@link com.jucya.textAnalyzer.api.bracketAnalyzer.BracketAnalyzerEndpoint}.
+ *
+ * @since 0.1
  */
 @DisplayName("BracketAnalyzerEndpoint")
 @WebMvcTest(controllers = BracketAnalyzerEndpoint.class)

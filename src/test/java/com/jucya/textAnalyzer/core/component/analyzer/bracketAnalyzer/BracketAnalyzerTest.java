@@ -9,6 +9,8 @@ import org.junit.jupiter.api.Test;
 
 /**
  * Набор тестов для {@link com.jucya.textAnalyzer.core.component.analyzer.bracketAnalyzer.BracketAnalyzer}.
+ *
+ * @since 0.1
  */
 @DisplayName("BracketAnalyzer")
 class BracketAnalyzerTest {
