@@ -3,7 +3,6 @@ plugins {
     id 'checkstyle'
     id 'org.springframework.boot' version '3.1.2'
     id 'io.spring.dependency-management' version '1.1.2'
-    id 'com.gorylenko.gradle-git-properties' version '2.4.1'
 }
 
 group 'com.jucya'
@@ -14,10 +13,6 @@ targetCompatibility = JavaVersion.VERSION_17
 
 repositories {
     jcenter()
-}
-
-gitProperties {
-    keys = [ 'git.branch', 'git.commit.id.abbrev', 'git.build.version', 'git.commit.time' ]
 }
 
 checkstyle {
